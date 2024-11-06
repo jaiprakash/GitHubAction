@@ -1,0 +1,12 @@
+name: workingOne
+on: push
+jobs:
+  CI_GHhosted:
+    runs-on: self-hosted
+    steps:      
+      - name: First step
+        run:  uname -a 
+      - name: second  step
+        run: date
+      - name: Thhird step
+        run: echo "This is self-hosted workflow"
