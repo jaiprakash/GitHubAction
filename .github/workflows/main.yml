@@ -2,7 +2,7 @@ name: workingOne
 on: push
 jobs:
   CI_GHhosted:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:      
       - name: First step
         run:  uname -a 
